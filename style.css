@@ -1,0 +1,451 @@
+*{
+    margin: 0;
+    border:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background:linear-gradient(rgb(254, 63, 95),rgb(234, 234, 234) );
+}
+.navbar{
+    
+    height: 60px;
+    background-color:#0f1111;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav-logo{
+    height: 50px;
+    display: flex;
+    padding-right: 5px;
+}
+.amazonlogo{
+    background-image: url("pngwing.com.png");
+    background-size: cover;
+    height: 50px;
+    width: 128px;
+    cursor: pointer;
+}
+.border {
+    border: 1px solid transparent;
+}
+.border:hover {
+    border: 1px solid white;
+}
+.deliver{
+    padding-right: 8px;
+    padding-bottom: 7px;
+}
+#deliverto{
+    color: #CCCCCC;
+    font-size: 0.85rem;
+    margin-left: 27px;
+    margin-top: 9px;
+}
+.Indiasecond{
+    font-size: 1rem;
+}
+.India{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    cursor: pointer;
+}
+#location{
+    margin-right: 5px;
+    margin-bottom: 4px;
+}
+.nav-search{
+    display: flex;
+    height: 40px;
+    border: 3px solid transparent;
+    border-radius: 9px;
+}
+.searchicon{
+    background-color: orange;
+    width: 45px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 1.3rem;
+    color: #0f1111;
+}
+.searchinput{
+    width: 940px;
+    border: none;
+    font-size: 0.95rem;
+    padding-left: 10px;
+    padding-bottom: 3.2px;
+}
+.selection{
+    background-color: #D4D4D4;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    cursor: pointer;
+    border: none;
+    font-size: 0.76rem;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+.nav-search:hover{
+    border: 3px solid orange;
+    border-radius: 9px;
+}
+.currency{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+    padding: 15px 5px 10px 5px;
+}
+.flag{
+    background-image: url("indiaflag.png");
+    background-size: cover;
+    height: 25px;
+    width: 25px;
+}
+.currency p{
+    font-size: 0.8rem;
+    margin-left: 4px;
+    margin-top:4px;
+    cursor: pointer;
+}
+.currency i{
+    font-size: 0.7rem;
+    margin-left: 2px;
+}
+span{
+    font-size: 0.8rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+.nav-signin{
+    padding: 8px 7px 8px 7px;
+}
+.nav-signin i{
+    font-size: 0.55rem;
+}
+.nav-return{
+    padding: 8px 7px 8px 7px;
+}
+.nav-return i{
+    font-size: 0.55rem;
+}
+#bada{
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+.cart{
+    padding: 8px 7px 8px 7px;
+    cursor: pointer;
+}
+.cart i{
+    font-size: 30px;
+    cursor: pointer;
+}
+.cart{
+    font-weight: 700;
+}
+.secnav-bar{
+    height: 39px;
+    background-color: #232f3e;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.others p{
+    display: inline;
+    justify-content: space-evenly;
+    font-size: 0.85rem;
+    width: 70%;
+    margin-left: 15px;
+    padding: 9px 5px 9px 5px;
+    cursor: pointer;
+    
+}
+.bars  {
+    font-weight: 700;
+    margin-left: 10px;
+    padding: 8px 7px 8px 7px;
+    cursor: pointer;
+    
+}
+.shopdeals{
+    font-weight: 700;
+    padding:  8px 7px 8px 7px; 
+}
+.hero-section {
+    background-image: url("Hero.jpg");
+    background-size: cover;
+    height: 350px;
+    
+}
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+    
+}
+.shop-section a{
+    color: #007185;
+    text-decoration: none;
+}
+.box   {
+    height: 430px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px 0px;
+    margin-top: 16px;
+}
+.box-image{
+    height: 350px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box-content{
+    margin-left: 16px;
+    margin-right: 16px;
+}
+.box-content p{
+    color: #007185;
+}
+.footer-panel1{
+    background-color: #232f3e;
+    height: 48px;
+    color: white;
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-panel1 p{
+    cursor: pointer;
+}
+.footer-panel2{
+    height: 300px;
+    background-color: #131a22;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+ul{
+    margin-top: 20px;
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 9px;
+    color: #DDDDDD;
+    cursor: pointer;
+    text-decoration: none;
+}
+ul p{
+    font-weight: 700;
+}
+.footer-panel3{
+    background-color: #131a22;
+    color: white;
+    border-top: 0.1px solid white;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.amazonlogofooter{
+        background-image: url("pngwing.com.png");
+        background-size: cover;
+        height: 50px;
+        width: 128px;
+        cursor: pointer;
+        margin-left: 15px;
+        margin-right: 15px;
+        cursor: pointer;
+}
+.english{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 10px;
+    border:  0.05px solid white;
+    border-radius: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.english p{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+.footerinr{
+    display: flex;
+    padding: 10px 10px;
+    border:  0.05px solid white;
+    border-radius: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.footerinr p{
+    margin-left: 10px;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+.indiaflag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+    border: 0.05px solid white;
+    border-radius: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.indiaflag1{
+    background-image: url("indiaflag.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 25px;
+        width: 25px;
+}
+.indiaflag p{
+    margin-left: 8px;
+    font-size: 0.8rem;
+}
+#lastarrow{
+    font-size: 0.6rem;
+}
+.footer-panel4{
+    height: 70px;
+    background-color: #0f1111;
+    color: white;
+    text-align: center;
+}
+.last a{
+    font-size: 0.8rem;
+}
+.copyright a{
+    font-size: 0.75rem;
+}
+.last{
+    padding-top: 15px;
+}
+.copyright{
+    padding-top: 5px;
+}
+.grid{
+    height: 450px;
+    width: 23%;
+    background-color: white;
+    margin-top: 16px;
+}
+.parent1 {
+    width: 430px; 
+    height: 430px; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    text-align: center;
+    margin-top: 15px;
+}
+.child1 {
+    width: 170px; 
+    height: 170px;
+    margin: 5px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-right: 15px;
+}
+.offers{
+    font-size: 0.75rem;
+    margin-top: 118px;
+}
+.seeall{
+    margin-bottom: 15px;
+}
+.scrollparent{
+    background-color: white;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 15px;
+}
+.scrollchild{
+    height: 280px;
+    width: 240px;
+    margin: 15px;
+    display: inline-block;
+}
+.scrollimg{
+    height: 250px;
+    width: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+.scrollparent h2{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.scrollparent a{
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 10px;
+    font-size: 0.95rem;
+    color: #007185;
+}
+.scrollchild p{
+    font-size: 0.85rem;
+    margin-top: 4px;
+    color: #007185;
+}
+.r{
+    position: relative;
+    top: 4px;
+    font-size: 0.9rem;
+}
+.offerbox{
+    color: white;
+    background-color: #CC0C39;
+    padding: 2px 4px 2px 4px;
+    border-radius: 5px;
+}
+body::-webkit-scrollbar{
+    background-color: transparent;
+    width: 7px;
+}
+body::-webkit-scrollbar-thumb{
+    background-color: grey;
+    border-radius: 20px;
+}
+.scrollparent::-webkit-scrollbar{
+    background-color: transparent;
+    height: 7px;
+}
+.scrollparent::-webkit-scrollbar-thumb{
+    background-color: transparent;
+    border-radius: 20px;
+    transition: all ease 0.5s;
+}
+.scrollparent::-webkit-scrollbar-thumb:hover{
+    background-color:grey;
+}
+
+
+
+
